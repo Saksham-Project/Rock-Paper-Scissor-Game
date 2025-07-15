@@ -23,8 +23,8 @@ while True:
             con = input('Continue? (y/n):').lower()
             if con == 'y':
                     continue
-            elif con == 'n':
-                break
+            else: 
+                 break
            
                 
         
@@ -35,9 +35,8 @@ while True:
             con = input('Continue? (y/n):').lower()
             if con == 'y':
                     continue
-            elif con == 'n':
-                break
-          
+            else: 
+                 break
                  
     elif user_choice == 'p' and com_choice == 'r':
             print("you choose 📄")
@@ -46,8 +45,8 @@ while True:
             con = input('Continue? (y/n):').lower()
             if con == 'y':
                     continue
-            elif con == 'n':
-                break
+            else: 
+                 break
            
                  
     elif user_choice == 'p' and com_choice == 'p':
@@ -57,8 +56,8 @@ while True:
             con = input('Continue? (y/n):').lower()
             if con == 'y':
                     continue
-            elif con == 'n':
-                break
+            else: 
+                 break
            
     elif user_choice == 'p' and com_choice == 's':
             print("you choose 📄")
@@ -72,8 +71,8 @@ while True:
             con = input('Continue? (y/n):').lower()
             if con == 'y':
                     continue
-            elif con == 'n':
-                break
+            else: 
+                 break
            
                  
     elif user_choice == 's' and com_choice == 'r':
@@ -88,13 +87,13 @@ while True:
             con = input('Continue? (y/n):').lower()
             if con == 'y':
                     continue
-            elif con == 'n':
-                break
+            else: 
+                 break
             
                  
     else:
             print("Invalid Input")
-            break
+            
            
             
     
