@@ -23,8 +23,11 @@ while True:
             con = input('Continue? (y/n):').lower()
             if con == 'y':
                     continue
-            else:
+            elif con == 'n':
                 break
+           
+                
+        
     elif user_choice == 'r' and com_choice == 'r':
             print("you choose 🪨")
             print('computer choose 🪨')
@@ -32,8 +35,10 @@ while True:
             con = input('Continue? (y/n):').lower()
             if con == 'y':
                     continue
-            else:
+            elif con == 'n':
                 break
+          
+                 
     elif user_choice == 'p' and com_choice == 'r':
             print("you choose 📄")
             print('computer choose 🪨')
@@ -41,8 +46,10 @@ while True:
             con = input('Continue? (y/n):').lower()
             if con == 'y':
                     continue
-            else:
+            elif con == 'n':
                 break
+           
+                 
     elif user_choice == 'p' and com_choice == 'p':
             print("you choose 📄")
             print('computer choose 📄')
@@ -50,8 +57,9 @@ while True:
             con = input('Continue? (y/n):').lower()
             if con == 'y':
                     continue
-            else:
+            elif con == 'n':
                 break
+           
     elif user_choice == 'p' and com_choice == 's':
             print("you choose 📄")
             print('computer choose ✂️')
@@ -64,8 +72,10 @@ while True:
             con = input('Continue? (y/n):').lower()
             if con == 'y':
                     continue
-            else:
+            elif con == 'n':
                 break
+           
+                 
     elif user_choice == 's' and com_choice == 'r':
             print("you choose ✂️")
             print('computer choose 🪨')
@@ -78,10 +88,15 @@ while True:
             con = input('Continue? (y/n):').lower()
             if con == 'y':
                     continue
-            else:
+            elif con == 'n':
                 break
+            
+                 
     else:
             print("Invalid Input")
+            break
+           
+            
     
         
             
