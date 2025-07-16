@@ -27,7 +27,7 @@ This is a simple and interactive console-based Rock, Paper, Scissors game built 
 1. Make sure you have Python installed.
 2. Clone this repository or download the script.
 3. Open a terminal/command prompt and navigate to the project directory.
-4. Run the game:
+4. Run the game
 
 ```bash
 python rock_paper_scissors.pye
