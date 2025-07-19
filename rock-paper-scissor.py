@@ -16,6 +16,7 @@ while True:
             print('computer choose 📄')
             print('You lose 😔')
             continue
+    
     elif user_choice == 'r' and com_choice == 's':
             print("you choose 🪨")
             print('computer choose ✂️')
@@ -25,8 +26,6 @@ while True:
                     continue
             else: 
                  break
-           
-                
         
     elif user_choice == 'r' and com_choice == 'r':
             print("you choose 🪨")
@@ -48,7 +47,6 @@ while True:
             else: 
                  break
            
-                 
     elif user_choice == 'p' and com_choice == 'p':
             print("you choose 📄")
             print('computer choose 📄')
@@ -64,6 +62,7 @@ while True:
             print('computer choose ✂️')
             print('You lose 😔')
             continue
+    
     elif user_choice == 's' and com_choice == 's':
             print("you choose ✂️")
             print('computer choose ✂️')
@@ -74,12 +73,12 @@ while True:
             else: 
                  break
            
-                 
     elif user_choice == 's' and com_choice == 'r':
             print("you choose ✂️")
             print('computer choose 🪨')
             print('You lose 😔')
             continue
+    
     elif user_choice == 's' and com_choice == 'p':
             print("you choose ✂️")
             print('computer choose 📄')
