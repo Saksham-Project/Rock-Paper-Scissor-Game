@@ -1,14 +1,8 @@
 '''
-todo: (sessior, paper, rock)
-get input from user 1((s/p/R)
-get input from user 2(s/p/R)
+Rock Paper Scissors (updated )
 
-if user1 input and user2 input is equal print tie
-if user1 input is 's' and user2 is 'R' , print user2 wins
-if user1 is 's' and user2 is 'P', print user1 win
-if user1 is 'r' and user2 is 
+In this game , there will be best of three whoever won first 2 wins the game
 
-🪨 📄 ✂️
 
 '''
 import random 
